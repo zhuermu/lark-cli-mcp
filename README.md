@@ -79,12 +79,13 @@ lark-cli auth status --json --verify
 
 ---
 
-## 第二步：创建 MCP 封装脚本 `server.js`
+## 第二步：下载当前仓库`server.js` 文件
 
 新建目录并保存下面的脚本，例如放到 `~/lark-cli-mcp/server.js`：
 
 ```bash
 mkdir -p ~/lark-cli-mcp
+cp server.js ~/lark-cli-mcp/
 ```
 
 
